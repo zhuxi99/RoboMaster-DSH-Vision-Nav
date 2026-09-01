@@ -22,7 +22,7 @@
    👉 **下载链接**：[https://pan.baidu.com/s/1KiMcEniXDyrCK3-jsLx78g?pwd=4ivr](https://pan.baidu.com/s/1KiMcEniXDyrCK3-jsLx78g?pwd=4ivr) （提取码：`4ivr`）
 
 2. **重要：更改文件后缀名**  
-   从百度网盘下载下来的文件如果被自动添加了额外后缀或被识别为其它格式，**请手动将文件后缀名修改为 `.tar`**（例如重命名为 `dsh-release.tar`）。
+   从百度网盘下载下来的文件是txt格式，是因为这个利用了些许漏洞，可以加速网盘下载，不用充会员了就，**请手动将文件后缀名修改为 `.tar`**（例如重命名为 `dsh-release.tar`）。
 
 3. **解压文件**：
    ```bash
