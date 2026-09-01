@@ -45,8 +45,14 @@ bash install.sh
 ```
 *脚本会自动将桌面端环境部署至 `~/deepseek-harness-desktop`，并将战队专属插件、Agent 预设和 26 项 Skills 导入至本地系统。*
 
-### 2. 配置个人 API 密钥（API Key）
-为保障各队员的个人账户与额度安全，分发包内对 API 密钥进行了脱敏。请使用文本编辑器打开凭证文件：
+### 2. 配置个人 API 密钥（API Key）与权限加固
+为保障各队员的个人账户与额度安全，分发包内对 API 密钥进行了脱敏。
+> ⚠️ **重要权限安全检查**：DSH 会强制校验凭据文件仅限当前用户本人读取（防止本地其他用户读取 Key）。首次配置前请先执行权限加固：
+```bash
+chmod 600 ~/.dsh/.credentials.yaml
+```
+
+然后使用文本编辑器打开凭证文件：
 ```bash
 nano ~/.dsh/.credentials.yaml
 # 或使用 VS Code 打开 ~/.dsh/.credentials.yaml
